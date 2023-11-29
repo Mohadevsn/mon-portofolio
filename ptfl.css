@@ -69,32 +69,78 @@ margin-left: 232px;
 #section2{
     background-color: rgb(244, 218, 222);
     height: 100vh;
+    position: relative;
 }
-.navbar{
+
+.navbar {
     display: flex;
-   justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
     margin: 100px;
 }
-.navb{
-    margin: 40px;
+
+.navb, .navbi {
+    margin: 20px;
     height: 50px;
     width: 150px;
-
     border-radius: 30px;
     font-size: 15px;
     border: 3px solid pink;
     background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.language-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.language-section img {
+    margin-right: 80px;
+}
+
+.language-btn, .project-btn {
+    align-self: flex-start;
+    margin-top: 20px;
+}
+
+.logo1, .logo1a, .logo1b, .logo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px; /* Ajustez la largeur du conteneur selon vos besoins */
+    height: 100px; /* Ajustez la hauteur du conteneur selon vos besoins */
+    margin-top: 25px;
+    margin-left: 70px;
+}
+
+
+.logo1 img, .logo1a img, .logo1b img, .logo2 img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.logo1b{
+    margin-left: 30px;
+}
+
+.logo1a{
+    margin-left: 100px;
+}
+
+.projet{
+    margin-left: 50px;
 }
 
 .lien {
 list-style-type: none;
 padding: 20px;
-font-size: 20px; 
-
+font-size: 15px;
+ 
 }
+
 .header{
     display: flex;
     justify-content: center;
@@ -206,7 +252,7 @@ footer{
     margin-left: 5%;
 }
 
-.icons{
+#social-media{
     position: relative;
     display: flex;
     align-items: center;
@@ -242,46 +288,7 @@ footer{
     font-size: 30px;
     
 }
-.logo{
-    display: flex;
-    margin-top: 30px;
-    height: 100px;
-    width: 100px;
-    margin-left: 55px;
-    
-}
-.logo1{
-    display: flex;
-    height: 100px;
-    width: 100px;
-    margin-left: 55px;
-    margin-top: 10px;
-}
-.logo2{
-    display: flex;
-    height: 100px;
-    width: 100px;
-    margin-left: 55px;
-    margin-top: 10px;
-}
-.html{
-    margin-right: 10px;
-}
-.projet{
-    margin-left: 50px;
-}
-.navbi{
-    margin-left: 150px;
-    height: 50px;
-    width: 150px;
-    margin-top: 40px;
-    border-radius: 30px;
-    font-size: 15px;
-    border: 3px solid pink;
-    background-color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
+
 .liens{
     padding-top: 60px;
 
@@ -339,3 +346,5 @@ footer{
     margin-left: 25%;
 
   }
+
+  
